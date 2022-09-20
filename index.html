@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="./assets/css/locomotive-scroll.css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 
@@ -33,13 +34,54 @@
             </a>
         </section>
         <section class="bottom-header">
-            <i data-scroll data-scroll-speed="-1" class="ri-arrow-down-s-line"></i>
+            <i data-scroll data-scroll-speed="-2" class="ri-arrow-down-s-line"></i>
         </section>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <section class="case-studies">
+            <h3 data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2">Case Studies</h3>
+            <p>We deliver a unique and truly bespoke approach to delivering international developments to market, with
+                over 10 years success around the world.</p>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./assets/img/france.png" id="img-swiper" alt="france">
+                        <span class="text-swiper">France</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/moroco.png" id="img-swiper" alt="moroco">
+                        <span class="text-swiper">Moroco</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/london.png" id="img-swiper" alt="london">
+                        <span class="text-swiper">London</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/portugal.png" id="img-swiper" alt="portugal">
+                        <span class="text-swiper">Portugal</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="weareinvoriem">
+            <h3 data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2">We are Invoriem</h3>
+            <p>We fulfill international property developments</p>
+            <img src="./assets/img/weareinvoriem.png" id="weareinvoriem" alt="invoriem">
+        </section>
+    </main>
+    <footer>
+        <a href="mailto:info@invoriem.com">info@invoriem.com</a>
+        <div class="reseaux">
+            <i class="logo-reseaux ri-instagram-fill"></i>
+            <i class="logo-reseaux ri-facebook-fill"></i>
+            <i class="logo-reseaux ri-twitter-fill"></i>
+            <i class="logo-reseaux ri-linkedin-fill"></i>
+        </div>
+        <p id="copyright">Copyright © 2022 Invoriem</p>
+    </footer>
 
     <script src="./assets/js/locomotive-scroll.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
