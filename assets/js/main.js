@@ -25,3 +25,17 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
+
+// Menu JS
+const btnMenu = document.querySelector(".ri-menu-line");
+const ul = document.querySelector("ul");
+
+btnMenu.addEventListener("click", () => {
+  if (btnMenu.className === "ri-menu-line menu-active") {
+    btnMenu.classList.remove("menu-active");
+    ul.style.display = "none";
+  } else {
+    ul.style.display = "flex";
+    btnMenu.classList.add("menu-active");
+  }
+});
